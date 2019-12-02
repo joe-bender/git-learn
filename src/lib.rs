@@ -1,7 +1,13 @@
+fn hi() -> String {
+    String::from("hi")
+}
+
 #[cfg(test)]
 mod tests {
+    use super::hi;
+
     #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
+    fn hi_returns_hi() {
+        assert_eq!(String::from("hi"), hi());
     }
 }
