@@ -1,4 +1,4 @@
-fn hi() -> String {
+pub fn hi() -> String {
     String::from("hi")
 }
 
