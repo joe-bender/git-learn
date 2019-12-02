@@ -12,6 +12,10 @@ pub fn hi() -> String {
     String::from("hi")
 }
 
+pub fn hello() -> String {
+    String::from("hello")
+}
+
 #[cfg(test)]
 mod tests {
     use super::hi;
