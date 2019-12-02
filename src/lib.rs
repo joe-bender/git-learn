@@ -1,3 +1,13 @@
+/// A function to return "hi"
+/// 
+/// This function simply return the String "hi".
+/// 
+/// # Examples
+/// 
+/// ```
+/// use git_learn::hi;
+/// assert_eq!(String::from("hi"), hi());
+/// ```
 pub fn hi() -> String {
     String::from("hi")
 }
